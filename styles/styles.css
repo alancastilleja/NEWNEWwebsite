@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+
+  body{
+    margin:0;
+  }
+
+  h1{
+    font-family: 'Cinzel Decorative', cursive, sans-serif;
+  }
+
+  h3{
+      line-height: 2;
+  }
+  
+  .container1{
+    background-color: #152238;
+    height: 400px;
+    width: 400px;
+    display: inline-block;
+    position: absolute;
+  }
+  
+  .container2{
+    background-color:#e6e6e6;
+    height: 900px;
+    position: relative;
+    top: 400px;
+    text-align: center;
+    padding-top: 10px;
+  }
+  
+  .container3{
+    background-color: #aebbcf;
+    position: absolute;
+    height: 400px;
+    left: 400px;
+    width: 950px;
+    display: inline-block;
+  }
+
+  .container4{
+      background-color:#152238;
+      height: 50px;
+      display: block;
+      position: relative;
+      top: 400px;
+      text-align: center;
+      color: white;
+      padding-top: 5px;
+  }
+  .description {
+    text-align: center;
+    margin-top: 140px;
+    }
+ 
+
+.skill-row{
+    text-align: left;
+    width: 50%;
+    margin: auto;
+    margin-top: 90px;
+    margin-bottom: 125px;
+}
+
+
+.img-code{
+    width: 35%;
+    float: left;
+    margin-right: 20px;
+}
+
+.img-school{
+    width: 30%;
+    float: right;
+    margin-left: 20px;
+}
+
+.img-other{
+    width: 35%;
+    float: left;
+    margin-right: 20px;
+}

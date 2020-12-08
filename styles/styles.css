@@ -11,31 +11,86 @@
   h3{
       line-height: 2;
   }
+
+  p{
+    font-size: 1.5em;
+  }
+
+  img{
+    max-height: 100%;
+    max-width: 100%;
+  }
+
+  .welcome{
+    width: 100%;
+    height: 100%;
+  }
+
+  
   
   .container1{
     background-color: #152238;
-    height: 400px;
-    width: 400px;
+    height: 380px;
+    width: 20%;
+    position: relative;
     display: inline-block;
-    position: absolute;
   }
   
   .container2{
+    background-color: #aebbcf;
+    position: absolute;
+    width: 80%;
+    height: 380px;
+    display: inline-block;
+  }
+  
+  .description {
+    margin-top: 90px;
+    margin-left: 25%;
+    margin-bottom: 5%;
+    }
+  
+  @media only screen and (max-width: 1023px) {
+    .container2 {
+      background-color: #aebbcf;
+      width: 100%;
+      height: 380px;
+      display: block;
+      position: static;
+    }
+
+    .description{
+      margin-top:0;
+      padding-top: 90px;
+    }
+
+    .container1{
+      width: 100%;
+    }
+
+    .welcome{
+      text-align: center;
+    }
+  }
+
+  .container3{
     background-color:#e6e6e6;
-    height: 900px;
+    height: 70em;
     position: relative;
-    top: 400px;
     text-align: center;
     padding-top: 10px;
   }
-  
-  .container3{
-    background-color: #aebbcf;
-    position: absolute;
-    height: 400px;
-    left: 400px;
-    width: 950px;
-    display: inline-block;
+
+  @media only screen and (max-width: 420px){
+    .container3{
+      height: 110em;
+    }
+  }
+
+  @media only screen and (max-width: 380px){
+    .container3{
+      height: 120em;
+    }
   }
 
   .container4{
@@ -43,15 +98,11 @@
       height: 50px;
       display: block;
       position: relative;
-      top: 400px;
       text-align: center;
       color: white;
       padding-top: 5px;
   }
-  .description {
-    text-align: center;
-    margin-top: 140px;
-    }
+  
  
 
 .skill-row{
